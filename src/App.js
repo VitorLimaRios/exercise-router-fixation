@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Home from './Home';
-import About from './About';
-import Users from './Users';
+import Home from './components/Home';
+import About from './components/About';
+import Users from './components/Users';
 import { BrowserRouter, Route } from 'react-router-dom';
+
 
 class App extends Component {
   render() {
